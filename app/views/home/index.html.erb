@@ -1,0 +1,14 @@
+<div class="bg-index-img">
+    <div class="shadow-sm py-2">
+        <%= render 'home/navbar' %>
+    </div>
+    <div class="">
+        <% if user_signed_in? %>
+          <%= render 'home/dashboard' %>
+        <% else %>
+          <%= render 'home/intro_page' %>
+        <% end %>
+    </div>
+</div>
+
+

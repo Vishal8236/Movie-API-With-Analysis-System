@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+}
+  
+.bg-index-img{
+    height: 100%;
+    background-image: url("index-bg.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-col{
+    color: #0d004d;
+}
+.nav-li-link > li{
+    list-style-type: none;
+}
+.intro-img{
+    height: 500px;
+}
